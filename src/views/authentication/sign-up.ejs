@@ -1,5 +1,22 @@
 <% include ../partials/header %>
 
 <!-- insert code here -->
+<form method="post" action="/sign-up">
+  <p>
+    <label>Name</label>
+    <input type="text" name="name">
+  </p>
+  <p>
+    <label>Email</label>
+    <input type="text" name="email">
+  </p>
+  <p>
+    <label>Password</label>
+    <input type="text" name="password">
+  </p>
+  <p>
+    <input type="submit" value="Sign Up">
+  </p>
+</form>
 
 <% include ../partials/footer %>
